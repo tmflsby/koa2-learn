@@ -24,15 +24,15 @@ npm install koa
 ### hello world 代码
 
 ```js
-const Koa = require('koa')
-const app = new Koa()
+const Koa = require('koa');
+const app = new Koa();
 
-app.use( async ( ctx ) => {
-  ctx.body = 'hello koa2'
-})
+app.use(async (ctx) => {
+  ctx.body = 'Hello koa2';
+});
 
-app.listen(3000)
-console.log('[demo] start-quick is starting at port 3000')
+app.listen(3000);
+console.log('[demo] start-quick is starting at port 3000...');
 ```
 
 ### 启动demo
@@ -45,4 +45,4 @@ node index.js
 
 访问[http:localhost:3000](http:localhost:3000)，效果如下
 
-![start-result-01](./image/start-quick-01.png)
+![result-01](./image/quick-01.png)
