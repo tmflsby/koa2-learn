@@ -1,0 +1,18 @@
+{
+  "name": "koa-router",
+  "version": "1.0.0",
+  "description": "koa-router",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "koajs"
+  ],
+  "author": "tmflsby",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "koa": "^2.15.3"
+  }
+}
