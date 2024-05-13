@@ -1,0 +1,18 @@
+{
+  "name": "request-koa-bodyparser",
+  "version": "1.0.0",
+  "description": "koa request koa-bodyparser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "koajs"
+  ],
+  "author": "tmflsby",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/bodyparser": "^5.1.1",
+    "koa": "^2.15.3"
+  }
+}
