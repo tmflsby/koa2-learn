@@ -1,0 +1,17 @@
+{
+  "name": "request-post",
+  "version": "1.0.0",
+  "description": "koa request post",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "koajs"
+  ],
+  "author": "tmflsby",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.15.3"
+  }
+}
