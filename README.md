@@ -11,3 +11,5 @@
   * ### [3.1 GET请求数据获取](node/request/get.md)
   * ### [3.2 POST请求数据获取](node/request/post.md)
   * ### [3.3 koa-bodyparser中间件](node/request/koa-bodyparser.md)
+* ## [4. 静态资源加载]()
+  * ### [4.1 原生koa2实现静态资源服务器](node/static/server.md)
