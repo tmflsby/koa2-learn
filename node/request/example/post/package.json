@@ -12,6 +12,6 @@
   "author": "tmflsby",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.15.3"
+    "koa": "^2.16.1"
   }
 }

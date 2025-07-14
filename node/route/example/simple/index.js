@@ -46,9 +46,9 @@ const route = async (url) => {
   return await render(view)
 }
 
-app.use(async (ctx) => {
+app.use((ctx) => {
   const url = ctx.request.url
-  ctx.body = await route(url)
+  ctx.body = route(url)
 })
 
 app.listen(3000, () => {
